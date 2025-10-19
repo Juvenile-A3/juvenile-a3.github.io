@@ -224,3 +224,28 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+title: "Akarin's Blog"
+description: "Something interesting"
+url: "https://juvenile-a3.github.io"
+baseurl: ""            # 主页留空
+lang: zh-CN
+timezone: 
+
+author:
+  name: "Akarin"
+  email: "you@example.com"
+  links:
+    - label: GitHub
+      url: https://github.com/juvenile-a3
+    - label: Google Scholar
+      url: https://scholar.google.com/
+
+# 代码高亮与数学
+markdown: kramdown
+kramdown:
+  math_engine: katex
+
+# RSS
+feed:
+  path: feed.xml
